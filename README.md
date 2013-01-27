@@ -21,3 +21,8 @@ Convert to JSON and output (GraFFT)
 ```
 
 This allows GraFFT to present frequency-domain results to any application which can display them, such as a charting library or monitoring tool.
+
+Notes
+-----
+Because the DFT assumes that samples are taken at regular time intervals, GraFFT works best with Graphite data which has been sampled every N seconds/minutes/etc. Data in Graphite which derives from irregular events (such as transactions) is not suitable for GraFFT.
+
