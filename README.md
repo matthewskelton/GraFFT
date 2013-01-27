@@ -29,4 +29,4 @@ Because the DFT assumes that samples are taken at regular time intervals, GraFFT
 Dependencies
 ------------
 * Python 3.2
-* NumPy 3.2
+* NumPy 1.6.2
