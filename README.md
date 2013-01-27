@@ -26,3 +26,7 @@ Notes
 -----
 Because the DFT assumes that samples are taken at regular time intervals, GraFFT works best with Graphite data which has been sampled every N seconds/minutes/etc. Data in Graphite which derives from irregular events (such as transactions) is not suitable for GraFFT.
 
+Dependencies
+------------
+* Python 3.2
+* NumPy 3.2
